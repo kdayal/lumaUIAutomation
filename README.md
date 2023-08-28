@@ -1,5 +1,4 @@
 # Cypress UI Ecommerce Automation Readme
-Cypress Logo
 
 This repository contains automated tests for an eCommerce web application using Cypress, a modern end-to-end testing framework built for the web. These tests are designed to ensure the functionality, and reliability of the eCommerce application.
 
@@ -18,7 +17,7 @@ git clone https://github.com/kdayal/lumaUIAutomation.git
 
 ### Navigate to the project directory:
 ```bash
-cd ecommerce-automation
+cd lumaUIAutomation
 ```
 
 ### Install the required dependencies:
