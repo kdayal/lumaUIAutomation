@@ -14,7 +14,7 @@ describe('Test checkout happy path', function() {
         cy.visit(Cypress.env('SITE_URL'));
         cy.wait(2000);
 
-        // add an item to shopping cart
+        // search for an item
         cy.fixture('search').then((data) => {
             cy.get('#search').type(data.searchTerm);
         });
@@ -60,9 +60,6 @@ describe('Test checkout happy path', function() {
                     cy.wait(7000);
                     cy.get('.button.action.continue.primary').click();
                 });
-
-    
-
             }
         });
         
